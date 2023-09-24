@@ -15,7 +15,7 @@
         <div class="">
             <div class="nav">
                 <div class="logo">
-                    <img src="image/logo.png">
+                    <a href="index.html"><img src="image/logo.png"></a>
                 </div>
                 <div class="center">
                     <input type="text" placeholder="Search" class="search">
@@ -33,11 +33,11 @@
                     <div class="topnav">
                         <div class="vertical">
                             <div class="nav1">
-                                <a class="" href="">Explore</a>
+                                <a class="" href="explore.html">Explore</a>
                             </div>
                         </div>
                         <div class="nav1">
-                            <a href="">Home</a>
+                            <a href="#">Home</a>
                         </div>
                         <div class="nav1">
                             <a href="">About</a>
@@ -46,15 +46,24 @@
                 </div>
             </div>
             <div class="fourth">
-                <button class="btn">AR/VR</button>
-                <button class="btn1">Gallery</button>
+                <button class="btn" onclick="alert_()">AR/VR</button>
+                <button class="btn1" onclick="open_()">Gallery</button>
 
             </div>
 
 
         </div>
     </div>
-
+    <script>
+        function alert_()
+        {
+            alert("Currently underdevelopment.")
+        }
+        function open_()
+        {
+            open("explore.html")
+        }
+    </script>
 </body>
 
 </html>
