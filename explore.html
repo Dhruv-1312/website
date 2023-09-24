@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>  
+    
+    <div class="bg">
+        <div class=parent>
+            <div class="child1">
+                <a href="index.html"><img src="images/logo.PNG" height="50px" width="90px" alt=""></a>
+                <a href="" class="hover-underline-animation">
+                    Home
+                </a>
+                <a href="" class="hover-underline-animation">Explore</a>
+                <a href="" class="hover-underline-animation">About Us</a>
+            </div>
+            <div class="child2">
+                <input type="text" placeholder="Search" class="search" id="search"><i class="ri-search-line searchicon"></i>
+            </div>
+
+        </div>
+        <div class="main-carousel">
+            <div class="cell"><a href=""><img src="images/img1.png" alt="image"></a></div>
+            <div class="cell"><a href=""><img src="images/img2.png" alt="image"></a></div>
+            <div class="cell"><a href="temple.html"><img src="images/img3.png" alt="image"></a></div>
+            <div class="cell"><a href=""><img src="images/img4.png" alt="image"></a></div>
+            <div class="cell"><a href=""><img src="images/img5.png" alt="image"></a></div>
+          </div>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+  cellAlign: 'left',
+  wrapAround:true,
+  freeScroll: true
+});
+    </script>
+</body>
+
+</html>
